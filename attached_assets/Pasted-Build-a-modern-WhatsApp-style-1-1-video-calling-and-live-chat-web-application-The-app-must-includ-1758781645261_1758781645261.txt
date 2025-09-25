@@ -1,0 +1,52 @@
+Build a modern WhatsApp-style 1:1 video calling and live chat web application. 
+The app must include the following:
+
+1. **Tech Stack**
+   - Frontend: React.js (Next.js optional), TailwindCSS for modern responsive UI
+   - Backend: Node.js with Express
+   - Database: MongoDB (for storing users, chats, call logs)
+   - Real-time Communication: WebRTC for video/audio calls, Socket.IO for live chat
+   - Authentication: JWT-based login/signup
+   - Deployment-ready (Docker support optional)
+
+2. **Homepage (UI)**
+   - Header with app logo (video camera inside chat bubble), navigation (Home, About, Contact), and Login button
+   - Welcome section: “Hello, Welcome Back!” + “Start Video Call” button
+   - Chats list with:
+     - Search bar
+     - Contact list (avatar, name, last message, timestamp)
+   - Modern green & white theme (WhatsApp-inspired)
+
+3. **Video Call Screen (UI)**
+   - Large video window for the other participant
+   - Small floating video window for self-view
+   - Bottom controls: 
+     - Mute/Unmute mic
+     - End call (red button)
+     - Toggle camera
+   - Right-side live chat panel:
+     - Messages in green (user) and white (other person)
+     - Timestamps
+     - Input field + send button (paper plane icon)
+   - Responsive design (desktop + mobile)
+
+4. **Features**
+   - 1:1 video call using WebRTC
+   - Live chat during call (Socket.IO)
+   - Contact list with last message preview
+   - User authentication (signup/login/logout)
+   - Call history & chat history saved in DB
+   - Notifications for incoming calls/messages
+
+5. **Code Requirements**
+   - Clean, modular code with comments
+   - Separate components for ChatList, VideoCall, ChatPanel, Header, etc.
+   - API routes for authentication, chat, and call logs
+   - Error handling and loading states
+   - Fully functional demo with sample users
+
+6. **Design**
+   - Modern, minimal, WhatsApp-inspired
+   - Green (#25D366) and white as primary colors
+   - Rounded chat bubbles
+   - Smooth animations for transitions
