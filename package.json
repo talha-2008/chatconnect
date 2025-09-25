@@ -62,7 +62,6 @@
     "@vercel/postgres": "latest",
     "@vitejs/plugin-react": "latest",
     "@xata.io/client": "latest",
-    "autoprefixer": "^10.4.20",
     "better-sqlite3": "latest",
     "bufferutil": "latest",
     "bun-types": "latest",
@@ -129,6 +128,7 @@
     "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
